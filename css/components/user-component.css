@@ -1,4 +1,6 @@
 .user-component {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
@@ -52,4 +54,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+.user-component__text {
+  display: block;
+  position: relative;
 }
