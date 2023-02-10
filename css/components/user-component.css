@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
 }
 
 .user-component,
@@ -58,4 +57,19 @@
 .user-component__text {
   display: block;
   position: relative;
+}
+.more-bang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 100%;
+  padding: 3px;
+  font-size: 14px;
+  bottom: 1.5px;
+  left: 170px;
 }

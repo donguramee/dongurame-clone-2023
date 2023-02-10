@@ -1,24 +1,3 @@
-.find-icon {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 25px;
-}
-
-.find-icon__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icon__icon i {
-  font-size: 35px;
-}
-
-.find-icon__icon span {
-  margin-top: 16px;
-  font-size: 15px;
-}
-
 .recomended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
