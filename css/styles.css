@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/reddot.css";
 @import "components/icon-row.css";
+@import "components/alt-screenheader.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -16,6 +17,9 @@
 @import "screens/find.css";
 @import "screens/chats.css";
 @import "screens/more.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
 
 body {
   color: #2e363e;
