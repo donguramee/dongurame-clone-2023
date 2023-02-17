@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat - DONGURAME Clone</title>
   </head>
+
   <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
@@ -22,28 +23,60 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
-    
-   <header class="alt-header">
-    <div class="alt-header__column">
-        <a href="more.html">
-         <i class="fa-solid fa-angle-left fa-2x"></i></div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
         </a>
-    <div class="alt-header__column">
-        <h1 class="alt-header__title">현여친</h1>
-    </div>
-    <div class="alt-header__column">
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">재웅</h1>
+      </div>
+      <div class="alt-header__column">
         <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
         <span class="burger"><i class="fa-solid fa-list fa-xl"></i></span>
-    </div>
-   </header>
+      </div>
+    </header>
 
-   <main class="main-screen">
- 
-   </main>
-    
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2023</div>
+      <div class="msg-row">
+        <img
+          src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAZLw7s.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f&x=123&y=318"
+        />
+        <div class="msg-row__content">
+          <span class="msg__author">재웅</span>
+          <div class="msg__info">
+            <span class="msg__bubble">오늘 이거 끝내기!!</span>
+            <span class="msg__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="msg-row msg-row--own">
+        <div class="msg-row__content">
+          <div class="msg__info">
+            <span class="msg__bubble"
+              >제발 오늘안에 술마시기 전에 끝내보자</span
+            >
+            <span class="msg__time">21:28</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
-
-
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/bac7a4b7de.js"
