@@ -97,7 +97,7 @@
 .reply input {
   padding: 10px;
   width: 100%;
-  border: var(--main border);
+  border: var(--main-border);
   border-radius: 15px;
 }
 .reply__column:last-child > i,
