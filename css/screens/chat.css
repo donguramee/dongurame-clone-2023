@@ -14,7 +14,6 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 10px;
   z-index: 1;
 }
 .main-chat {
@@ -95,7 +94,7 @@
   position: relative;
 }
 .reply input {
-  padding: 10px;
+  padding: 12px;
   width: 100%;
   border: var(--main-border);
   border-radius: 15px;
